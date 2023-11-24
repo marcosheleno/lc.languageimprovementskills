@@ -1,0 +1,77 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/44193ed1-ebcb-44da-8b78-7cc150e1bce5
+// command took 0.59 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/44193ed1-ebcb-44da-8b78-7cc150e1bce5
+// command took 1.36 sec and exited with 0
+// ***** Done, took 00:00:01 (1.99 sec)   *****
+// Found 1 benchmarks:
+//   BenchmarkParallelism.Parallel: DefaultJob
+
+// **************************
+// Benchmark: BenchmarkParallelism.Parallel: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 44193ed1-ebcb-44da-8b78-7cc150e1bce5.dll --anonymousPipes 103 104 --benchmarkName GeneralTesting.BenchmarkParallelism.Parallel --job Default --benchmarkId 0 in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/44193ed1-ebcb-44da-8b78-7cc150e1bce5/bin/Release/net7.0
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a
+// Runtime=.NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AdvSIMD,AES,CRC32,DP,RDM,SHA1,SHA256 VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 105792.00 ns, 105.7920 us/op
+WorkloadJitting  1: 1 op, 8571959.00 ns, 8.5720 ms/op
+
+OverheadJitting  2: 16 op, 134333.00 ns, 8.3958 us/op
+WorkloadJitting  2: 16 op, 121548917.00 ns, 7.5968 ms/op
+
+WorkloadPilot    1: 16 op, 116658083.00 ns, 7.2911 ms/op
+WorkloadPilot    2: 32 op, 267610041.00 ns, 8.3628 ms/op
+WorkloadPilot    3: 64 op, 481179250.00 ns, 7.5184 ms/op
+WorkloadPilot    4: 128 op, 942421125.00 ns, 7.3627 ms/op
+
+OverheadWarmup   1: 128 op, 1375.00 ns, 10.7422 ns/op
+OverheadWarmup   2: 128 op, 667.00 ns, 5.2109 ns/op
+OverheadWarmup   3: 128 op, 541.00 ns, 4.2266 ns/op
+OverheadWarmup   4: 128 op, 375.00 ns, 2.9297 ns/op
+OverheadWarmup   5: 128 op, 500.00 ns, 3.9062 ns/op
+OverheadWarmup   6: 128 op, 375.00 ns, 2.9297 ns/op
+OverheadWarmup   7: 128 op, 417.00 ns, 3.2578 ns/op
+OverheadWarmup   8: 128 op, 375.00 ns, 2.9297 ns/op
+
+OverheadActual   1: 128 op, 500.00 ns, 3.9062 ns/op
+OverheadActual   2: 128 op, 417.00 ns, 3.2578 ns/op
+OverheadActual   3: 128 op, 500.00 ns, 3.9062 ns/op
+OverheadActual   4: 128 op, 458.00 ns, 3.5781 ns/op
+OverheadActual   5: 128 op, 459.00 ns, 3.5859 ns/op
+OverheadActual   6: 128 op, 375.00 ns, 2.9297 ns/op
+OverheadActual   7: 128 op, 417.00 ns, 3.2578 ns/op
+OverheadActual   8: 128 op, 334.00 ns, 2.6094 ns/op
+OverheadActual   9: 128 op, 417.00 ns, 3.2578 ns/op
+OverheadActual  10: 128 op, 584.00 ns, 4.5625 ns/op
+OverheadActual  11: 128 op, 334.00 ns, 2.6094 ns/op
+OverheadActual  12: 128 op, 375.00 ns, 2.9297 ns/op
+OverheadActual  13: 128 op, 375.00 ns, 2.9297 ns/op
+OverheadActual  14: 128 op, 584.00 ns, 4.5625 ns/op
+OverheadActual  15: 128 op, 250.00 ns, 1.9531 ns/op
+OverheadActual  16: 128 op, 292.00 ns, 2.2812 ns/op
+OverheadActual  17: 128 op, 541.00 ns, 4.2266 ns/op
+OverheadActual  18: 128 op, 459.00 ns, 3.5859 ns/op
+OverheadActual  19: 128 op, 708.00 ns, 5.5312 ns/op
+OverheadActual  20: 128 op, 666.00 ns, 5.2031 ns/op
+
+WorkloadWarmup   1: 128 op, 971422500.00 ns, 7.5892 ms/op
+WorkloadWarmup   2: 128 op, 1017504208.00 ns, 7.9493 ms/op
+WorkloadWarmup   3: 128 op, 922547792.00 ns, 7.2074 ms/op
+WorkloadWarmup   4: 128 op, 937078875.00 ns, 7.3209 ms/op
+WorkloadWarmup   5: 128 op, 996525875.00 ns, 7.7854 ms/op
+WorkloadWarmup   6: 128 op, 958534000.00 ns, 7.4885 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 128 op, 917832917.00 ns, 7.1706 ms/op

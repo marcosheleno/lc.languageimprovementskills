@@ -1,0 +1,17 @@
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/bin/Debug/net6.0/RunPyInCSharp
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/bin/Debug/net6.0/RunPyInCSharp.deps.json
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/bin/Debug/net6.0/RunPyInCSharp.runtimeconfig.json
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/bin/Debug/net6.0/RunPyInCSharp.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/bin/Debug/net6.0/ref/RunPyInCSharp.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/bin/Debug/net6.0/RunPyInCSharp.pdb
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/bin/Debug/net6.0/Python.Runtime.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.csproj.AssemblyReference.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.AssemblyInfoInputs.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.AssemblyInfo.cs
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.csproj.CoreCompileInputs.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.csproj.CopyComplete
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/ref/RunPyInCSharp.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.pdb
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/obj/Debug/net6.0/RunPyInCSharp.genruntimeconfig.cache

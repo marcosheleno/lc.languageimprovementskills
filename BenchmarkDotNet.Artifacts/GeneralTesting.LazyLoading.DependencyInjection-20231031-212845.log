@@ -1,0 +1,1255 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/64eb0558-fabb-4a9a-8dd1-c9bf62b107a7
+// command took 0.77 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/64eb0558-fabb-4a9a-8dd1-c9bf62b107a7
+// command took 1.49 sec and exited with 0
+// ***** Done, took 00:00:02 (2.3 sec)   *****
+// Found 2 benchmarks:
+//   DependencyInjection.Lazy: DefaultJob
+//   DependencyInjection.Normal: DefaultJob
+
+// **************************
+// Benchmark: DependencyInjection.Lazy: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 64eb0558-fabb-4a9a-8dd1-c9bf62b107a7.dll --anonymousPipes 111 112 --benchmarkName GeneralTesting.LazyLoading.DependencyInjection.Lazy --job Default --benchmarkId 0 in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/64eb0558-fabb-4a9a-8dd1-c9bf62b107a7/bin/Release/net7.0
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a
+// Runtime=.NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AdvSIMD,AES,CRC32,DP,RDM,SHA1,SHA256 VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 129542.00 ns, 129.5420 us/op
+lazy injection
+WorkloadJitting  1: 1 op, 109788167.00 ns, 109.7882 ms/op
+
+lazy injection
+lazy injection
+WorkloadPilot    1: 2 op, 119295375.00 ns, 59.6477 ms/op
+lazy injection
+lazy injection
+lazy injection
+WorkloadPilot    2: 3 op, 178443875.00 ns, 59.4813 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadPilot    3: 4 op, 230565542.00 ns, 57.6414 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadPilot    4: 5 op, 290679375.00 ns, 58.1359 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadPilot    5: 6 op, 352488583.00 ns, 58.7481 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadPilot    6: 7 op, 404712333.00 ns, 57.8160 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadPilot    7: 8 op, 465738959.00 ns, 58.2174 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadPilot    8: 9 op, 520225666.00 ns, 57.8029 ms/op
+
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadWarmup   1: 9 op, 522884167.00 ns, 58.0982 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadWarmup   2: 9 op, 519917833.00 ns, 57.7686 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadWarmup   3: 9 op, 517488542.00 ns, 57.4987 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadWarmup   4: 9 op, 521083042.00 ns, 57.8981 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadWarmup   5: 9 op, 518653458.00 ns, 57.6282 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadWarmup   6: 9 op, 522260458.00 ns, 58.0289 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadWarmup   7: 9 op, 519458875.00 ns, 57.7177 ms/op
+
+// BeforeActualRun
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   1: 9 op, 519006625.00 ns, 57.6674 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   2: 9 op, 515718000.00 ns, 57.3020 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   3: 9 op, 516217709.00 ns, 57.3575 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   4: 9 op, 520486542.00 ns, 57.8318 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   5: 9 op, 526086167.00 ns, 58.4540 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   6: 9 op, 522038958.00 ns, 58.0043 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   7: 9 op, 521634250.00 ns, 57.9594 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   8: 9 op, 517824750.00 ns, 57.5361 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual   9: 9 op, 524907375.00 ns, 58.3230 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual  10: 9 op, 518440000.00 ns, 57.6044 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual  11: 9 op, 516894208.00 ns, 57.4327 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual  12: 9 op, 520493833.00 ns, 57.8326 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual  13: 9 op, 517536916.00 ns, 57.5041 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual  14: 9 op, 526033208.00 ns, 58.4481 ms/op
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+lazy injection
+WorkloadActual  15: 9 op, 526755542.00 ns, 58.5284 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 9 op, 519006625.00 ns, 57.6674 ms/op
+WorkloadResult   2: 9 op, 515718000.00 ns, 57.3020 ms/op
+WorkloadResult   3: 9 op, 516217709.00 ns, 57.3575 ms/op
+WorkloadResult   4: 9 op, 520486542.00 ns, 57.8318 ms/op
+WorkloadResult   5: 9 op, 526086167.00 ns, 58.4540 ms/op
+WorkloadResult   6: 9 op, 522038958.00 ns, 58.0043 ms/op
+WorkloadResult   7: 9 op, 521634250.00 ns, 57.9594 ms/op
+WorkloadResult   8: 9 op, 517824750.00 ns, 57.5361 ms/op
+WorkloadResult   9: 9 op, 524907375.00 ns, 58.3230 ms/op
+WorkloadResult  10: 9 op, 518440000.00 ns, 57.6044 ms/op
+WorkloadResult  11: 9 op, 516894208.00 ns, 57.4327 ms/op
+WorkloadResult  12: 9 op, 520493833.00 ns, 57.8326 ms/op
+WorkloadResult  13: 9 op, 517536916.00 ns, 57.5041 ms/op
+WorkloadResult  14: 9 op, 526033208.00 ns, 58.4481 ms/op
+WorkloadResult  15: 9 op, 526755542.00 ns, 58.5284 ms/op
+
+// AfterAll
+// Benchmark Process 13420 has exited with code 0.
+
+Mean = 57.852 ms, StdErr = 0.108 ms (0.19%), N = 15, StdDev = 0.420 ms
+Min = 57.302 ms, Q1 = 57.520 ms, Median = 57.832 ms, Q3 = 58.164 ms, Max = 58.528 ms
+IQR = 0.644 ms, LowerFence = 56.555 ms, UpperFence = 59.129 ms
+ConfidenceInterval = [57.403 ms; 58.302 ms] (CI 99.9%), Margin = 0.449 ms (0.78% of Mean)
+Skewness = 0.35, Kurtosis = 1.56, MValue = 2
+
+// ** Remained 1 (50,0%) benchmark(s) to run. Estimated finish 2023-10-31 21:29 (0h 0m from now) **
+// **************************
+// Benchmark: DependencyInjection.Normal: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 64eb0558-fabb-4a9a-8dd1-c9bf62b107a7.dll --anonymousPipes 113 114 --benchmarkName GeneralTesting.LazyLoading.DependencyInjection.Normal --job Default --benchmarkId 1 in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/64eb0558-fabb-4a9a-8dd1-c9bf62b107a7/bin/Release/net7.0
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a
+// Runtime=.NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AdvSIMD,AES,CRC32,DP,RDM,SHA1,SHA256 VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 104375.00 ns, 104.3750 us/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadJitting  1: 1 op, 100973958.00 ns, 100.9740 ms/op
+
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadPilot    1: 2 op, 116304584.00 ns, 58.1523 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadPilot    2: 3 op, 174086625.00 ns, 58.0289 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadPilot    3: 4 op, 232304958.00 ns, 58.0762 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadPilot    4: 5 op, 293128167.00 ns, 58.6256 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadPilot    5: 6 op, 346523834.00 ns, 57.7540 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadPilot    6: 7 op, 405144958.00 ns, 57.8779 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadPilot    7: 8 op, 466042667.00 ns, 58.2553 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadPilot    8: 9 op, 530064250.00 ns, 58.8960 ms/op
+
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   1: 9 op, 523749542.00 ns, 58.1944 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   2: 9 op, 519171042.00 ns, 57.6857 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   3: 9 op, 523147709.00 ns, 58.1275 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   4: 9 op, 524963583.00 ns, 58.3293 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   5: 9 op, 765651708.00 ns, 85.0724 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   6: 9 op, 536586500.00 ns, 59.6207 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   7: 9 op, 526705917.00 ns, 58.5229 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   8: 9 op, 529152875.00 ns, 58.7948 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadWarmup   9: 9 op, 525280334.00 ns, 58.3645 ms/op
+
+// BeforeActualRun
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   1: 9 op, 525854667.00 ns, 58.4283 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   2: 9 op, 523377375.00 ns, 58.1530 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   3: 9 op, 521600125.00 ns, 57.9556 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   4: 9 op, 521864625.00 ns, 57.9850 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   5: 9 op, 521858625.00 ns, 57.9843 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   6: 9 op, 524821334.00 ns, 58.3135 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   7: 9 op, 522053834.00 ns, 58.0060 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   8: 9 op, 525827750.00 ns, 58.4253 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual   9: 9 op, 528385625.00 ns, 58.7095 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual  10: 9 op, 529360166.00 ns, 58.8178 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual  11: 9 op, 522377041.00 ns, 58.0419 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual  12: 9 op, 521325917.00 ns, 57.9251 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual  13: 9 op, 521776375.00 ns, 57.9752 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual  14: 9 op, 521530292.00 ns, 57.9478 ms/op
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+Iniciei Class 2
+Iniciei Class 1
+Normal injection
+WorkloadActual  15: 9 op, 521085375.00 ns, 57.8984 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 9 op, 525854667.00 ns, 58.4283 ms/op
+WorkloadResult   2: 9 op, 523377375.00 ns, 58.1530 ms/op
+WorkloadResult   3: 9 op, 521600125.00 ns, 57.9556 ms/op
+WorkloadResult   4: 9 op, 521864625.00 ns, 57.9850 ms/op
+WorkloadResult   5: 9 op, 521858625.00 ns, 57.9843 ms/op
+WorkloadResult   6: 9 op, 524821334.00 ns, 58.3135 ms/op
+WorkloadResult   7: 9 op, 522053834.00 ns, 58.0060 ms/op
+WorkloadResult   8: 9 op, 525827750.00 ns, 58.4253 ms/op
+WorkloadResult   9: 9 op, 528385625.00 ns, 58.7095 ms/op
+WorkloadResult  10: 9 op, 529360166.00 ns, 58.8178 ms/op
+WorkloadResult  11: 9 op, 522377041.00 ns, 58.0419 ms/op
+WorkloadResult  12: 9 op, 521325917.00 ns, 57.9251 ms/op
+WorkloadResult  13: 9 op, 521776375.00 ns, 57.9752 ms/op
+WorkloadResult  14: 9 op, 521530292.00 ns, 57.9478 ms/op
+WorkloadResult  15: 9 op, 521085375.00 ns, 57.8984 ms/op
+
+// AfterAll
+// Benchmark Process 13423 has exited with code 0.
+
+Mean = 58.171 ms, StdErr = 0.077 ms (0.13%), N = 15, StdDev = 0.298 ms
+Min = 57.898 ms, Q1 = 57.965 ms, Median = 58.006 ms, Q3 = 58.369 ms, Max = 58.818 ms
+IQR = 0.404 ms, LowerFence = 57.359 ms, UpperFence = 58.975 ms
+ConfidenceInterval = [57.853 ms; 58.490 ms] (CI 99.9%), Margin = 0.318 ms (0.55% of Mean)
+Skewness = 0.96, Kurtosis = 2.43, MValue = 2
+
+// ** Remained 0 (0,0%) benchmark(s) to run. Estimated finish 2023-10-31 21:29 (0h 0m from now) **
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.DependencyInjection-report.csv
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.DependencyInjection-report-github.md
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.DependencyInjection-report.html
+
+// * Detailed results *
+DependencyInjection.Lazy: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD; GC = Concurrent Workstation
+Mean = 57.852 ms, StdErr = 0.108 ms (0.19%), N = 15, StdDev = 0.420 ms
+Min = 57.302 ms, Q1 = 57.520 ms, Median = 57.832 ms, Q3 = 58.164 ms, Max = 58.528 ms
+IQR = 0.644 ms, LowerFence = 56.555 ms, UpperFence = 59.129 ms
+ConfidenceInterval = [57.403 ms; 58.302 ms] (CI 99.9%), Margin = 0.449 ms (0.78% of Mean)
+Skewness = 0.35, Kurtosis = 1.56, MValue = 2
+-------------------- Histogram --------------------
+[57.078 ms ; 58.752 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+DependencyInjection.Normal: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD; GC = Concurrent Workstation
+Mean = 58.171 ms, StdErr = 0.077 ms (0.13%), N = 15, StdDev = 0.298 ms
+Min = 57.898 ms, Q1 = 57.965 ms, Median = 58.006 ms, Q3 = 58.369 ms, Max = 58.818 ms
+IQR = 0.404 ms, LowerFence = 57.359 ms, UpperFence = 58.975 ms
+ConfidenceInterval = [57.853 ms; 58.490 ms] (CI 99.9%), Margin = 0.318 ms (0.55% of Mean)
+Skewness = 0.96, Kurtosis = 2.43, MValue = 2
+-------------------- Histogram --------------------
+[57.740 ms ; 58.976 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a, macOS Sonoma 14.0 (23A344) [Darwin 23.0.0]
+Apple M2 Pro, 1 CPU, 10 logical and 10 physical cores
+.NET SDK 7.0.100
+  [Host]     : .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+  DefaultJob : .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+
+
+| Method | Mean     | Error    | StdDev   |
+|------- |---------:|---------:|---------:|
+| Lazy   | 57.85 ms | 0.449 ms | 0.420 ms |
+| Normal | 58.17 ms | 0.318 ms | 0.298 ms |
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ms   : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:29 (29.97 sec), executed benchmarks: 2
+
+Global total time: 00:00:32 (32.55 sec), executed benchmarks: 2
+// * Artifacts cleanup *
+Artifacts cleanup is finished

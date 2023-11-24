@@ -1,0 +1,15 @@
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/bin/Debug/net7.0/Exemplo2
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/bin/Debug/net7.0/Exemplo2.deps.json
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/bin/Debug/net7.0/Exemplo2.runtimeconfig.json
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/bin/Debug/net7.0/Exemplo2.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/bin/Debug/net7.0/Exemplo2.pdb
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/Exemplo2.csproj.AssemblyReference.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/Exemplo2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/Exemplo2.AssemblyInfoInputs.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/Exemplo2.AssemblyInfo.cs
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/Exemplo2.csproj.CoreCompileInputs.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/Exemplo2.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/refint/Exemplo2.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/Exemplo2.pdb
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/Exemplo2.genruntimeconfig.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/Exemplo2/obj/Debug/net7.0/ref/Exemplo2.dll

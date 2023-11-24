@@ -1,0 +1,135 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/4c57e34f-9157-4e26-a91b-84f334ecc5b8
+// command took 0.67 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/4c57e34f-9157-4e26-a91b-84f334ecc5b8
+// command took 1.49 sec and exited with 0
+// ***** Done, took 00:00:02 (2.16 sec)   *****
+// Found 1 benchmarks:
+//   NormalInjection.Inject: DefaultJob
+
+// **************************
+// Benchmark: NormalInjection.Inject: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 4c57e34f-9157-4e26-a91b-84f334ecc5b8.dll --anonymousPipes 115 116 --benchmarkName GeneralTesting.LazyLoading.NormalInjection.Inject --job Default --benchmarkId 0 in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/4c57e34f-9157-4e26-a91b-84f334ecc5b8/bin/Release/net7.0
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a
+// Runtime=.NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AdvSIMD,AES,CRC32,DP,RDM,SHA1,SHA256 VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 106417.00 ns, 106.4170 us/op
+WorkloadJitting  1: 1 op, 104027709.00 ns, 104.0277 ms/op
+
+WorkloadPilot    1: 2 op, 108006542.00 ns, 54.0033 ms/op
+WorkloadPilot    2: 3 op, 157027084.00 ns, 52.3424 ms/op
+WorkloadPilot    3: 4 op, 217882666.00 ns, 54.4707 ms/op
+WorkloadPilot    4: 5 op, 260201833.00 ns, 52.0404 ms/op
+WorkloadPilot    5: 6 op, 311199125.00 ns, 51.8665 ms/op
+WorkloadPilot    6: 7 op, 358686167.00 ns, 51.2409 ms/op
+WorkloadPilot    7: 8 op, 410403125.00 ns, 51.3004 ms/op
+WorkloadPilot    8: 9 op, 466656167.00 ns, 51.8507 ms/op
+WorkloadPilot    9: 10 op, 516093000.00 ns, 51.6093 ms/op
+
+WorkloadWarmup   1: 10 op, 517970917.00 ns, 51.7971 ms/op
+WorkloadWarmup   2: 10 op, 515939917.00 ns, 51.5940 ms/op
+WorkloadWarmup   3: 10 op, 525644792.00 ns, 52.5645 ms/op
+WorkloadWarmup   4: 10 op, 511942583.00 ns, 51.1943 ms/op
+WorkloadWarmup   5: 10 op, 518159875.00 ns, 51.8160 ms/op
+WorkloadWarmup   6: 10 op, 516799250.00 ns, 51.6799 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 10 op, 515276125.00 ns, 51.5276 ms/op
+WorkloadActual   2: 10 op, 514096750.00 ns, 51.4097 ms/op
+WorkloadActual   3: 10 op, 513539875.00 ns, 51.3540 ms/op
+WorkloadActual   4: 10 op, 508831833.00 ns, 50.8832 ms/op
+WorkloadActual   5: 10 op, 507404708.00 ns, 50.7405 ms/op
+WorkloadActual   6: 10 op, 509925834.00 ns, 50.9926 ms/op
+WorkloadActual   7: 10 op, 510905416.00 ns, 51.0905 ms/op
+WorkloadActual   8: 10 op, 511134333.00 ns, 51.1134 ms/op
+WorkloadActual   9: 10 op, 511708541.00 ns, 51.1709 ms/op
+WorkloadActual  10: 10 op, 515581250.00 ns, 51.5581 ms/op
+WorkloadActual  11: 10 op, 515639375.00 ns, 51.5639 ms/op
+WorkloadActual  12: 10 op, 517994125.00 ns, 51.7994 ms/op
+WorkloadActual  13: 10 op, 517058542.00 ns, 51.7059 ms/op
+WorkloadActual  14: 10 op, 515458667.00 ns, 51.5459 ms/op
+WorkloadActual  15: 10 op, 515719791.00 ns, 51.5720 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 10 op, 515276125.00 ns, 51.5276 ms/op
+WorkloadResult   2: 10 op, 514096750.00 ns, 51.4097 ms/op
+WorkloadResult   3: 10 op, 513539875.00 ns, 51.3540 ms/op
+WorkloadResult   4: 10 op, 508831833.00 ns, 50.8832 ms/op
+WorkloadResult   5: 10 op, 507404708.00 ns, 50.7405 ms/op
+WorkloadResult   6: 10 op, 509925834.00 ns, 50.9926 ms/op
+WorkloadResult   7: 10 op, 510905416.00 ns, 51.0905 ms/op
+WorkloadResult   8: 10 op, 511134333.00 ns, 51.1134 ms/op
+WorkloadResult   9: 10 op, 511708541.00 ns, 51.1709 ms/op
+WorkloadResult  10: 10 op, 515581250.00 ns, 51.5581 ms/op
+WorkloadResult  11: 10 op, 515639375.00 ns, 51.5639 ms/op
+WorkloadResult  12: 10 op, 517994125.00 ns, 51.7994 ms/op
+WorkloadResult  13: 10 op, 517058542.00 ns, 51.7059 ms/op
+WorkloadResult  14: 10 op, 515458667.00 ns, 51.5459 ms/op
+WorkloadResult  15: 10 op, 515719791.00 ns, 51.5720 ms/op
+
+// AfterAll
+// Benchmark Process 12786 has exited with code 0.
+
+Mean = 51.335 ms, StdErr = 0.082 ms (0.16%), N = 15, StdDev = 0.317 ms
+Min = 50.740 ms, Q1 = 51.102 ms, Median = 51.410 ms, Q3 = 51.561 ms, Max = 51.799 ms
+IQR = 0.459 ms, LowerFence = 50.413 ms, UpperFence = 52.250 ms
+ConfidenceInterval = [50.996 ms; 51.674 ms] (CI 99.9%), Margin = 0.339 ms (0.66% of Mean)
+Skewness = -0.35, Kurtosis = 1.74, MValue = 2
+
+// ** Remained 0 (0,0%) benchmark(s) to run. Estimated finish 2023-10-31 20:39 (0h 0m from now) **
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.NormalInjection-report.csv
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.NormalInjection-report-github.md
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.NormalInjection-report.html
+
+// * Detailed results *
+NormalInjection.Inject: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD; GC = Concurrent Workstation
+Mean = 51.335 ms, StdErr = 0.082 ms (0.16%), N = 15, StdDev = 0.317 ms
+Min = 50.740 ms, Q1 = 51.102 ms, Median = 51.410 ms, Q3 = 51.561 ms, Max = 51.799 ms
+IQR = 0.459 ms, LowerFence = 50.413 ms, UpperFence = 52.250 ms
+ConfidenceInterval = [50.996 ms; 51.674 ms] (CI 99.9%), Margin = 0.339 ms (0.66% of Mean)
+Skewness = -0.35, Kurtosis = 1.74, MValue = 2
+-------------------- Histogram --------------------
+[50.572 ms ; 51.968 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a, macOS Sonoma 14.0 (23A344) [Darwin 23.0.0]
+Apple M2 Pro, 1 CPU, 10 logical and 10 physical cores
+.NET SDK 7.0.100
+  [Host]     : .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+  DefaultJob : .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+
+
+| Method | Mean     | Error    | StdDev   |
+|------- |---------:|---------:|---------:|
+| Inject | 51.34 ms | 0.339 ms | 0.317 ms |
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ms   : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:13 (13.88 sec), executed benchmarks: 1
+
+Global total time: 00:00:16 (16.05 sec), executed benchmarks: 1
+// * Artifacts cleanup *
+Artifacts cleanup is finished

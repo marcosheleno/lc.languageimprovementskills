@@ -1,0 +1,1 @@
+FROM python:3.7-alpine python script_to_run.py

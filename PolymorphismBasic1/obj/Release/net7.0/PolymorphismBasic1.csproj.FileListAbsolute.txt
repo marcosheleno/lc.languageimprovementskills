@@ -1,0 +1,15 @@
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/bin/Release/net7.0/PolymorphismBasic1
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/bin/Release/net7.0/PolymorphismBasic1.deps.json
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/bin/Release/net7.0/PolymorphismBasic1.runtimeconfig.json
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/bin/Release/net7.0/PolymorphismBasic1.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/bin/Release/net7.0/PolymorphismBasic1.pdb
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/PolymorphismBasic1.csproj.AssemblyReference.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/PolymorphismBasic1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/PolymorphismBasic1.AssemblyInfoInputs.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/PolymorphismBasic1.AssemblyInfo.cs
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/PolymorphismBasic1.csproj.CoreCompileInputs.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/PolymorphismBasic1.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/refint/PolymorphismBasic1.dll
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/PolymorphismBasic1.pdb
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/PolymorphismBasic1.genruntimeconfig.cache
+/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/PolymorphismBasic1/obj/Release/net7.0/ref/PolymorphismBasic1.dll

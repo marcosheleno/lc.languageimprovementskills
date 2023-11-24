@@ -1,0 +1,236 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/bec819ab-c261-4825-8f38-7330c826fae2
+// command took 0.76 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/bec819ab-c261-4825-8f38-7330c826fae2
+// command took 1.42 sec and exited with 0
+// ***** Done, took 00:00:02 (2.23 sec)   *****
+// Found 2 benchmarks:
+//   DependencyInjection.Lazy: DefaultJob
+//   DependencyInjection.Normal: DefaultJob
+
+// **************************
+// Benchmark: DependencyInjection.Lazy: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet bec819ab-c261-4825-8f38-7330c826fae2.dll --anonymousPipes 107 108 --benchmarkName GeneralTesting.LazyLoading.DependencyInjection.Lazy --job Default --benchmarkId 0 in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/bec819ab-c261-4825-8f38-7330c826fae2/bin/Release/net7.0
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a
+// Runtime=.NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AdvSIMD,AES,CRC32,DP,RDM,SHA1,SHA256 VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 109958.00 ns, 109.9580 us/op
+WorkloadJitting  1: 1 op, 108000917.00 ns, 108.0009 ms/op
+
+WorkloadPilot    1: 2 op, 106007458.00 ns, 53.0037 ms/op
+WorkloadPilot    2: 3 op, 158599042.00 ns, 52.8663 ms/op
+WorkloadPilot    3: 4 op, 209361208.00 ns, 52.3403 ms/op
+WorkloadPilot    4: 5 op, 258320625.00 ns, 51.6641 ms/op
+WorkloadPilot    5: 6 op, 308940375.00 ns, 51.4901 ms/op
+WorkloadPilot    6: 7 op, 358944000.00 ns, 51.2777 ms/op
+WorkloadPilot    7: 8 op, 407996375.00 ns, 50.9995 ms/op
+WorkloadPilot    8: 9 op, 456440792.00 ns, 50.7156 ms/op
+WorkloadPilot    9: 10 op, 506641875.00 ns, 50.6642 ms/op
+
+WorkloadWarmup   1: 10 op, 514689125.00 ns, 51.4689 ms/op
+WorkloadWarmup   2: 10 op, 503695959.00 ns, 50.3696 ms/op
+WorkloadWarmup   3: 10 op, 516530042.00 ns, 51.6530 ms/op
+WorkloadWarmup   4: 10 op, 516977250.00 ns, 51.6977 ms/op
+WorkloadWarmup   5: 10 op, 513602375.00 ns, 51.3602 ms/op
+WorkloadWarmup   6: 10 op, 508153417.00 ns, 50.8153 ms/op
+WorkloadWarmup   7: 10 op, 511634333.00 ns, 51.1634 ms/op
+WorkloadWarmup   8: 10 op, 517283541.00 ns, 51.7284 ms/op
+WorkloadWarmup   9: 10 op, 501879166.00 ns, 50.1879 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 10 op, 505519584.00 ns, 50.5520 ms/op
+WorkloadActual   2: 10 op, 505690542.00 ns, 50.5691 ms/op
+WorkloadActual   3: 10 op, 515889333.00 ns, 51.5889 ms/op
+WorkloadActual   4: 10 op, 519434083.00 ns, 51.9434 ms/op
+WorkloadActual   5: 10 op, 502698125.00 ns, 50.2698 ms/op
+WorkloadActual   6: 10 op, 510502708.00 ns, 51.0503 ms/op
+WorkloadActual   7: 10 op, 517407458.00 ns, 51.7407 ms/op
+WorkloadActual   8: 10 op, 508836250.00 ns, 50.8836 ms/op
+WorkloadActual   9: 10 op, 501403917.00 ns, 50.1404 ms/op
+WorkloadActual  10: 10 op, 748241041.00 ns, 74.8241 ms/op
+WorkloadActual  11: 10 op, 506686458.00 ns, 50.6686 ms/op
+WorkloadActual  12: 10 op, 516824333.00 ns, 51.6824 ms/op
+WorkloadActual  13: 10 op, 507181667.00 ns, 50.7182 ms/op
+WorkloadActual  14: 10 op, 507879792.00 ns, 50.7880 ms/op
+WorkloadActual  15: 10 op, 506577000.00 ns, 50.6577 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 10 op, 505519584.00 ns, 50.5520 ms/op
+WorkloadResult   2: 10 op, 505690542.00 ns, 50.5691 ms/op
+WorkloadResult   3: 10 op, 515889333.00 ns, 51.5889 ms/op
+WorkloadResult   4: 10 op, 519434083.00 ns, 51.9434 ms/op
+WorkloadResult   5: 10 op, 502698125.00 ns, 50.2698 ms/op
+WorkloadResult   6: 10 op, 510502708.00 ns, 51.0503 ms/op
+WorkloadResult   7: 10 op, 517407458.00 ns, 51.7407 ms/op
+WorkloadResult   8: 10 op, 508836250.00 ns, 50.8836 ms/op
+WorkloadResult   9: 10 op, 501403917.00 ns, 50.1404 ms/op
+WorkloadResult  10: 10 op, 506686458.00 ns, 50.6686 ms/op
+WorkloadResult  11: 10 op, 516824333.00 ns, 51.6824 ms/op
+WorkloadResult  12: 10 op, 507181667.00 ns, 50.7182 ms/op
+WorkloadResult  13: 10 op, 507879792.00 ns, 50.7880 ms/op
+WorkloadResult  14: 10 op, 506577000.00 ns, 50.6577 ms/op
+
+// AfterAll
+// Benchmark Process 12871 has exited with code 0.
+
+Mean = 50.947 ms, StdErr = 0.153 ms (0.30%), N = 14, StdDev = 0.571 ms
+Min = 50.140 ms, Q1 = 50.591 ms, Median = 50.753 ms, Q3 = 51.454 ms, Max = 51.943 ms
+IQR = 0.863 ms, LowerFence = 49.297 ms, UpperFence = 52.749 ms
+ConfidenceInterval = [50.303 ms; 51.591 ms] (CI 99.9%), Margin = 0.644 ms (1.26% of Mean)
+Skewness = 0.44, Kurtosis = 1.71, MValue = 2
+
+// ** Remained 1 (50,0%) benchmark(s) to run. Estimated finish 2023-10-31 20:41 (0h 0m from now) **
+// **************************
+// Benchmark: DependencyInjection.Normal: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet bec819ab-c261-4825-8f38-7330c826fae2.dll --anonymousPipes 109 110 --benchmarkName GeneralTesting.LazyLoading.DependencyInjection.Normal --job Default --benchmarkId 1 in /Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/GeneralTesting/bin/Release/net7.0/bec819ab-c261-4825-8f38-7330c826fae2/bin/Release/net7.0
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a
+// Runtime=.NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AdvSIMD,AES,CRC32,DP,RDM,SHA1,SHA256 VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 125250.00 ns, 125.2500 us/op
+WorkloadJitting  1: 1 op, 92649584.00 ns, 92.6496 ms/op
+
+WorkloadPilot    1: 2 op, 105466584.00 ns, 52.7333 ms/op
+WorkloadPilot    2: 3 op, 157886167.00 ns, 52.6287 ms/op
+WorkloadPilot    3: 4 op, 206339750.00 ns, 51.5849 ms/op
+WorkloadPilot    4: 5 op, 256938917.00 ns, 51.3878 ms/op
+WorkloadPilot    5: 6 op, 310608250.00 ns, 51.7680 ms/op
+WorkloadPilot    6: 7 op, 355996250.00 ns, 50.8566 ms/op
+WorkloadPilot    7: 8 op, 406863916.00 ns, 50.8580 ms/op
+WorkloadPilot    8: 9 op, 458400916.00 ns, 50.9334 ms/op
+WorkloadPilot    9: 10 op, 505558334.00 ns, 50.5558 ms/op
+
+WorkloadWarmup   1: 10 op, 510572209.00 ns, 51.0572 ms/op
+WorkloadWarmup   2: 10 op, 507629125.00 ns, 50.7629 ms/op
+WorkloadWarmup   3: 10 op, 509273292.00 ns, 50.9273 ms/op
+WorkloadWarmup   4: 10 op, 511126667.00 ns, 51.1127 ms/op
+WorkloadWarmup   5: 10 op, 506970417.00 ns, 50.6970 ms/op
+WorkloadWarmup   6: 10 op, 510828417.00 ns, 51.0828 ms/op
+WorkloadWarmup   7: 10 op, 512390500.00 ns, 51.2390 ms/op
+WorkloadWarmup   8: 10 op, 512519750.00 ns, 51.2520 ms/op
+WorkloadWarmup   9: 10 op, 511392750.00 ns, 51.1393 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 10 op, 506384958.00 ns, 50.6385 ms/op
+WorkloadActual   2: 10 op, 511470500.00 ns, 51.1471 ms/op
+WorkloadActual   3: 10 op, 503687875.00 ns, 50.3688 ms/op
+WorkloadActual   4: 10 op, 508530625.00 ns, 50.8531 ms/op
+WorkloadActual   5: 10 op, 516779208.00 ns, 51.6779 ms/op
+WorkloadActual   6: 10 op, 507410458.00 ns, 50.7410 ms/op
+WorkloadActual   7: 10 op, 511304125.00 ns, 51.1304 ms/op
+WorkloadActual   8: 10 op, 516242208.00 ns, 51.6242 ms/op
+WorkloadActual   9: 10 op, 515751584.00 ns, 51.5752 ms/op
+WorkloadActual  10: 10 op, 512552292.00 ns, 51.2552 ms/op
+WorkloadActual  11: 10 op, 511859042.00 ns, 51.1859 ms/op
+WorkloadActual  12: 10 op, 511360125.00 ns, 51.1360 ms/op
+WorkloadActual  13: 10 op, 524435666.00 ns, 52.4436 ms/op
+WorkloadActual  14: 10 op, 523612917.00 ns, 52.3613 ms/op
+WorkloadActual  15: 10 op, 520857917.00 ns, 52.0858 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 10 op, 506384958.00 ns, 50.6385 ms/op
+WorkloadResult   2: 10 op, 511470500.00 ns, 51.1471 ms/op
+WorkloadResult   3: 10 op, 503687875.00 ns, 50.3688 ms/op
+WorkloadResult   4: 10 op, 508530625.00 ns, 50.8531 ms/op
+WorkloadResult   5: 10 op, 516779208.00 ns, 51.6779 ms/op
+WorkloadResult   6: 10 op, 507410458.00 ns, 50.7410 ms/op
+WorkloadResult   7: 10 op, 511304125.00 ns, 51.1304 ms/op
+WorkloadResult   8: 10 op, 516242208.00 ns, 51.6242 ms/op
+WorkloadResult   9: 10 op, 515751584.00 ns, 51.5752 ms/op
+WorkloadResult  10: 10 op, 512552292.00 ns, 51.2552 ms/op
+WorkloadResult  11: 10 op, 511859042.00 ns, 51.1859 ms/op
+WorkloadResult  12: 10 op, 511360125.00 ns, 51.1360 ms/op
+WorkloadResult  13: 10 op, 524435666.00 ns, 52.4436 ms/op
+WorkloadResult  14: 10 op, 523612917.00 ns, 52.3613 ms/op
+WorkloadResult  15: 10 op, 520857917.00 ns, 52.0858 ms/op
+
+// AfterAll
+// Benchmark Process 12882 has exited with code 0.
+
+Mean = 51.348 ms, StdErr = 0.158 ms (0.31%), N = 15, StdDev = 0.612 ms
+Min = 50.369 ms, Q1 = 50.992 ms, Median = 51.186 ms, Q3 = 51.651 ms, Max = 52.444 ms
+IQR = 0.659 ms, LowerFence = 50.003 ms, UpperFence = 52.640 ms
+ConfidenceInterval = [50.694 ms; 52.003 ms] (CI 99.9%), Margin = 0.655 ms (1.28% of Mean)
+Skewness = 0.33, Kurtosis = 1.98, MValue = 2
+
+// ** Remained 0 (0,0%) benchmark(s) to run. Estimated finish 2023-10-31 20:41 (0h 0m from now) **
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.DependencyInjection-report.csv
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.DependencyInjection-report-github.md
+  BenchmarkDotNet.Artifacts/results/GeneralTesting.LazyLoading.DependencyInjection-report.html
+
+// * Detailed results *
+DependencyInjection.Lazy: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD; GC = Concurrent Workstation
+Mean = 50.947 ms, StdErr = 0.153 ms (0.30%), N = 14, StdDev = 0.571 ms
+Min = 50.140 ms, Q1 = 50.591 ms, Median = 50.753 ms, Q3 = 51.454 ms, Max = 51.943 ms
+IQR = 0.863 ms, LowerFence = 49.297 ms, UpperFence = 52.749 ms
+ConfidenceInterval = [50.303 ms; 51.591 ms] (CI 99.9%), Margin = 0.644 ms (1.26% of Mean)
+Skewness = 0.44, Kurtosis = 1.71, MValue = 2
+-------------------- Histogram --------------------
+[49.829 ms ; 52.254 ms) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+DependencyInjection.Normal: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD; GC = Concurrent Workstation
+Mean = 51.348 ms, StdErr = 0.158 ms (0.31%), N = 15, StdDev = 0.612 ms
+Min = 50.369 ms, Q1 = 50.992 ms, Median = 51.186 ms, Q3 = 51.651 ms, Max = 52.444 ms
+IQR = 0.659 ms, LowerFence = 50.003 ms, UpperFence = 52.640 ms
+ConfidenceInterval = [50.694 ms; 52.003 ms] (CI 99.9%), Margin = 0.655 ms (1.28% of Mean)
+Skewness = 0.33, Kurtosis = 1.98, MValue = 2
+-------------------- Histogram --------------------
+[50.043 ms ; 52.770 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet v0.13.9+228a464e8be6c580ad9408e98f18813f6407fb5a, macOS Sonoma 14.0 (23A344) [Darwin 23.0.0]
+Apple M2 Pro, 1 CPU, 10 logical and 10 physical cores
+.NET SDK 7.0.100
+  [Host]     : .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+  DefaultJob : .NET 7.0.0 (7.0.22.61201), Arm64 RyuJIT AdvSIMD
+
+
+| Method | Mean     | Error    | StdDev   |
+|------- |---------:|---------:|---------:|
+| Lazy   | 50.95 ms | 0.644 ms | 0.571 ms |
+| Normal | 51.35 ms | 0.655 ms | 0.612 ms |
+
+// * Hints *
+Outliers
+  DependencyInjection.Lazy: Default -> 1 outlier  was  removed (74.82 ms)
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ms   : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:30 (30.85 sec), executed benchmarks: 2
+
+Global total time: 00:00:33 (33.27 sec), executed benchmarks: 2
+// * Artifacts cleanup *
+Artifacts cleanup is finished
