@@ -12,7 +12,7 @@ public class RunPy
         Init();
         var pyCode = LoadScript("/Users/marcosheleno/Documents/Estudos/C#/Principios de OO/Polimorfismo/RunPyInCSharp/scripts/script.1.py");
         Console.WriteLine("comecei");
-        
+        using (Py.GIL())
         {
             using (var scope = Py.CreateScope())
             {
